@@ -34,7 +34,7 @@ A continuación, se explican los principales estadísticos utilizados en esta pr
 ## MEDIA :  
 La media es una medida de tendencia central que representa el valor promedio de una señal. Se calcula sumando todos los valores de la señal y dividiendo entre el número total de muestras. La media también se conoce como media aritmética o promedio. Además, la media de una distribución estadística es equivalente a su esperanza matemática.
 
-  ![](https://github.com/Nupan07/procesamiento/blob/main/MEDIA.png)
+![MEDIA](https://github.com/barretoxx21/labora-2/blob/main/MEDIA.png?raw=true)
 
   Donde:
 
@@ -46,7 +46,7 @@ La media es una medida de tendencia central que representa el valor promedio de 
 
 Es una medida de dispersión estadística que indica cuánto se alejan los valores de un conjunto de datos respecto a su media. En otras palabras, refleja el grado de variabilidad o dispersión de los datos: 
 
-  ![](https://github.com/Nupan07/procesamiento/blob/main/Desviaci%C3%B3n.png)
+![Desviación](https://github.com/barretoxx21/labora-2/blob/main/Desviaci%C3%B3n.png?raw=true)
 
 Cuanto mayor sea la desviación estándar de un conjunto de datos, significa que más lejos están los datos de la media. Y la interpretación también se puede hacer al revés, si la desviación estándar es baja quiere decir que en general los datos están muy cerca de su media.
 
@@ -65,7 +65,7 @@ El coeficiente de variación es una medida estadística que sirve para determina
 
 El coeficiente de variación se expresa en forma de porcentaje y suelen utilizarse las siglas CV como símbolo de esta métrica estadística.
 
-![](https://github.com/Nupan07/procesamiento/blob/main/Coeficiente.png)
+![Coeficiente](https://github.com/barretoxx21/labora-2/blob/main/Coeficiente.png?raw=true)
 
 El **coeficiente de variación** (CV) se calcula con la siguiente fórmula:
 
@@ -79,7 +79,7 @@ Donde:
   
 Buscaremos en Pysionet y selecionaremos el boton DATA
 
-![](https://github.com/Nupan07/procesamiento/blob/main/Physionet.png)
+![Physionet](https://github.com/barretoxx21/labora-2/blob/main/Physionet.png?raw=true)
 
 **PASO 2**
 
@@ -87,7 +87,7 @@ Ingresaremos la sigla EMG (Electromiografia) donde escogeremos la señal de nues
 En nuestro caso escogimos escoger Stress Recognition in Automobile Drivers
 
 
-![](https://github.com/Nupan07/procesamiento/blob/main/Physionet2.png)
+![Physionet2](https://github.com/barretoxx21/labora-2/blob/main/Physionet2.png?raw=true)
 
 ## Objetivo del estudio 
 
@@ -139,7 +139,7 @@ voltaje_canal_1 = signal.p_signal[:, 1]  # Selección del canal EMG (posición 1
 
 **Donde se puede evidenciar en la siguiente grafica:**
 
-![](https://github.com/Nupan07/procesamiento/blob/main/Se%C3%B1alorginal.png)
+![Señal original](https://github.com/barretoxx21/labora-2/blob/main/Se%C3%B1alorginal.png?raw=true)
 
 A partir de esta grafica iniciaremos con los calculos estadisticos explicados anteriormente, que incluyen:
 
@@ -333,7 +333,7 @@ Para realizar el histograma a mano mediante la programacion usamos la siguiente 
 
 Donde podemos observar la grafica calculada:
 
-![](https://github.com/Nupan07/procesamiento/blob/main/Histogramamanual.png)
+![Histograma manual](https://github.com/barretoxx21/labora-2/blob/main/Histogramamanual.png?raw=true)
 
 ## SNR Y  APLICACION DE RUIDO GAUSSIANO , RUIDO IMPULSO Y RUIDO ARTEFACTO
 
@@ -343,11 +343,11 @@ La relación señal/ruido (SNR, por sus siglas en inglés) es una medida que com
 
 El cual se calcula de con la siguiente formula:
 
-![](https://github.com/Nupan07/procesamiento/blob/main/SNR.png)
+![SNR](https://github.com/barretoxx21/labora-2/blob/main/SNR.png?raw=true)
 
 El valor de SNR también se puede expresar en decibelios (dB):
 
-![](https://github.com/Nupan07/procesamiento/blob/main/SNRDB.png)
+![SNRDB](https://github.com/barretoxx21/labora-2/blob/main/SNRDB.png?raw=true)
 
 A continuacion a nuestra señal orginal se  le aplico 3 diferentes ruidos los cuales son :
  
@@ -365,7 +365,7 @@ Donde la linea de codigo para aplicar este ruido a nuestra señal fue :
    
 Esta línea de código genero  un ruido gaussiano con una media de 0 y una desviación estándar definida por la variable desviacion, y la  suma al voltaje original de voltaje_canal_1 para obtener una señal contaminada llamada voltaje_contaminado. Luego, la se llama a la función calcular_SNR la cual calcula la relación señal/ruido (SNR) entre el voltaje original y el ruido añadido.
 
-![](https://github.com/Nupan07/procesamiento/blob/main/RuidoGaussiano.png)
+![Ruido Gaussiano](https://github.com/barretoxx21/labora-2/blob/main/RuidoGaussiano.png?raw=true)
 
  ## RUIDO IMPULSO:
  
@@ -390,7 +390,7 @@ Donde la linea de codigo para aplicar este ruido a nuestra señal fue :
 Este código agrega ruido de impulso, que son interferencias breves en la señal. La mayoría de los puntos no tienen ruido (98%), pero algunos tienen impulsos positivos o negativos (1% cada uno). Luego, se suma a la señal original y se calcula el SNR para medir su impacto, dando la siguiente señal:
 
 
-![](https://github.com/Nupan07/procesamiento/blob/main/Ruidoimpulso.png)
+![Ruido impulso](https://github.com/barretoxx21/labora-2/blob/main/Ruidoimpulso.png?raw=true)
 
 
  ## RUIDO ARTEFACTO :
@@ -411,7 +411,7 @@ El ruido artefacto es un tipo de interferencia o distorsión que aparece en una 
             
 Este código agrega  el ruido llamado artefacto, que es una interferencia periódica de 50 Hz, similar a la producida por la electricidad en equipos electrónicos. Primero, crea una onda senoidal de baja intensidad (0.05) y la suma a la señal original. Luegose calcula cuánto afecta este ruido a la señal mediante el SNR (Relación Señal-Ruido). 
 
-![](https://github.com/Nupan07/procesamiento/blob/main/RuidoArtefacto.png)
+![Ruido artefacto](https://github.com/barretoxx21/labora-2/blob/main/RuidoArtefacto.png?raw=true)
 
 
  ## ANALISIS DE DATOS ESTADISTICOS
