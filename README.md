@@ -79,7 +79,7 @@ Donde:
   
 Buscaremos en Pysionet y selecionaremos el boton DATA
 
-![Physionet](https://github.com/barretoxx21/labora-2/blob/main/Physionet.png?raw=true)
+![Physionet](https://github.com/barretoxx21/labora-2/blob/main/Physionet.png?raw=true) 
 
 **PASO 2**
 
