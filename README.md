@@ -34,7 +34,7 @@ A continuación, se explican los principales estadísticos utilizados en esta pr
 ## MEDIA :  
 La media es una medida de tendencia central que representa el valor promedio de una señal. Se calcula sumando todos los valores de la señal y dividiendo entre el número total de muestras. La media también se conoce como media aritmética o promedio. Además, la media de una distribución estadística es equivalente a su esperanza matemática.
 
-![MEDIA](https://github.com/barretoxx21/labora-2/blob/main/MEDIA.png?raw=true)
+![MEDIA](https://github.com/barretoxx21/labora-2/blob/main/MEDIA.png?raw=true) 
 
   Donde:
 
