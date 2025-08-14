@@ -263,7 +263,8 @@ En esta parte del codigo lo que se logra hacer graficar los datos para que nos d
 
 Como se observa la grafica y la campana dan los valores reales mostrando que la mayoria de valores se encuentran en el centro generando asi la campana , dando a continuacion la muestra del resultado 
 
-![](https://github.com/Nupan07/procesamiento/blob/main/Histograma.png)
+![Histograma](https://github.com/barretoxx21/labora-2/blob/main/Histograma.png?raw=true)
+
 
 **HISTOGRAMA A MANO**
 Para realizar el histograma a mano mediante la programacion usamos la siguiente composicion :
