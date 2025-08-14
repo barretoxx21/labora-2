@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Feb  5 19:31:38 2025
-@author: valen
-Adaptado para Google Colab
-"""
+
 
 import wfdb
 import numpy as np
@@ -174,4 +170,5 @@ def menu_interactivo():
 
 if __name__ == "__main__":
     menu_interactivo()
+
 
